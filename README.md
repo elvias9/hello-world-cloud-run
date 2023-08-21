@@ -8,7 +8,7 @@ The container is accessible from an external https load balancer.
 The infrastructure is composed by the following resources:
 
 - A cloud Run service that accepts traffic from the internet only through the external Application Load Balancer. Direct requests to the **run.app** URL from the internet are not allowed.
-- An external https load balancer
+- An external https load balancer that has the Cloud Run configured as its serverless NEG backend
 
 
 ![alt text](cloud-run.png "Cloud Run Solution Topology")
