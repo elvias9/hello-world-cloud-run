@@ -15,7 +15,7 @@ The infrastructure is composed by the following resources:
 
 ## Pre-requisites
 
-Run the [setup.sh](setup.sh) to install all the required APIs
+Run the [setup.sh](setup.sh) script to install all the required APIs
 
 ```bash
 chmod +x setup.sh
