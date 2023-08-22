@@ -40,6 +40,11 @@ resource "google_cloud_run_service" "run_service" {
     latest_revision = true
   }
 
+  lifecycle {
+    ignore_changes = [template[0].spec[0].containers[0].image]
+  }
+
+
   depends_on = [null_resource.build_and_push]
 }
 

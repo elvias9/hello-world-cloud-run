@@ -15,6 +15,13 @@ The infrastructure is composed by the following resources:
 
 ## Pre-requisites
 
+### Authenticate to Google Cloud
+  
+```gcloud auth application-default login
+# run the following command set up your default Google Cloud Project
+gcloud config set project <your-project-id>
+```
+
 Run the [setup.sh](setup.sh) script to install all the required APIs
 
 ```bash
