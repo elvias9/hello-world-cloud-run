@@ -17,7 +17,8 @@ The infrastructure is composed by the following resources:
 
 ### Authenticate to Google Cloud
   
-```gcloud auth application-default login
+```bash
+gcloud auth application-default login
 # run the following command set up your default Google Cloud Project
 gcloud config set project <your-project-id>
 ```
