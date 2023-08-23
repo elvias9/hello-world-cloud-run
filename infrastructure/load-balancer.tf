@@ -36,7 +36,6 @@ module "serverless-lb-http" {
 
       groups = [
         {
-          # Your serverless service should have a NEG created that's referenced here.
           group = google_compute_region_network_endpoint_group.serverless_neg.id
         }
       ]

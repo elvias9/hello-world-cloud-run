@@ -1,5 +1,5 @@
 locals {
-  app_image = "${var.project_region}-docker.pkg.dev/${var.project_id}/my-docker-repo/app:latest"
+  app_image = "${var.project_region}-docker.pkg.dev/${var.project_id}/${var.repository_id}/app:latest"
 }
 
 resource "null_resource" "build_and_push" {
